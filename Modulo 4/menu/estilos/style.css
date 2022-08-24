@@ -20,8 +20,23 @@ header h1 {
     text-align: center;
 }
 
+#burger {
+    background-color: rgb(48, 48, 48);
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#burger:hover {
+    background-color: white;
+}
+
+svg:hover {
+    fill: black;
+}
+
 menu {
-    display: block;
+    display: none;
 }
 
 menu ul {
